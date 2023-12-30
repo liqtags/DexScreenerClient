@@ -34,8 +34,8 @@ def i_am_the_watcher_free_version(chain="solana", shouldGenerateFiles=True, shou
 
     if shouldAddToSupabase:
         pairs_loop(trending_pairs, trending_pairs_string_slugged, chain)
-        pairs_loop(top_gaining_pairs, top_gaining_pairs_string_slugged)
-        pairs_loop(newest_pairs, newest_pairs_string_slugged)
+        pairs_loop(top_gaining_pairs, top_gaining_pairs_string_slugged, chain)
+        pairs_loop(newest_pairs, newest_pairs_string_slugged, chain)
     
 if __name__ == "__main__":
-    i_am_the_watcher_free_version("bsc", shouldGenerateFiles=False, shouldPrintDataFrames=True, shouldAddToSupabase=False)
+    i_am_the_watcher_free_version("solana", shouldGenerateFiles=False, shouldPrintDataFrames=True, shouldAddToSupabase=False)
