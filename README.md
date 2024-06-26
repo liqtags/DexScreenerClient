@@ -1,4 +1,5 @@
-# DexscreenerClientV2 is coming :) 
+## V2 Message 
+V2 is coming but firstly I have been working on a telebot and crypto API; after that is finished I'll see if Dexscreener API is even needed now. 
 
 # Cryptocurrency Pair Analysis Tool
 Cryptocurrency Pair Analysis Tool
