@@ -1,6 +1,6 @@
 from consts import SUPABASE_URL, SUPABASE_KEY
 from supabase import create_client, Client
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 
 def add_data_to_supabase(pairsType, pair, createscanLink):
     """
@@ -14,6 +14,7 @@ def add_data_to_supabase(pairsType, pair, createscanLink):
     Returns:
         None
     """
+    supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
     supabase.table(pairsType).insert({
                 "name": pair.get("baseToken").get("name"),
                 "scan": createscanLink,
