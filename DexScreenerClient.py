@@ -38,4 +38,4 @@ def i_am_the_watcher_free_version(chain="solana", shouldGenerateFiles=True, shou
         pairs_loop(newest_pairs, newest_pairs_string_slugged, chain)
     
 if __name__ == "__main__":
-    i_am_the_watcher_free_version("solana", shouldGenerateFiles=False, shouldPrintDataFrames=True, shouldAddToSupabase=False)
+    i_am_the_watcher_free_version("ethereum", shouldGenerateFiles=False, shouldPrintDataFrames=True, shouldAddToSupabase=False)

@@ -3,3 +3,4 @@ requests
 pandas
 websocket-client
 tabulate
+supabase

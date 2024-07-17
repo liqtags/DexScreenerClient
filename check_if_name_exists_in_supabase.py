@@ -1,6 +1,5 @@
 from consts import SUPABASE_URL, SUPABASE_KEY
 from supabase import create_client, Client
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def check_if_name_exists_in_supabase(name: str, table: str):
     """
@@ -13,5 +12,6 @@ def check_if_name_exists_in_supabase(name: str, table: str):
     Returns:
         bool: True if the name exists in the table, False otherwise.
     """
+    supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
     d = supabase.table(table).select("*").eq("name", name).execute()
     return len(d.data) > 0
