@@ -1,6 +1,8 @@
 # Cryptocurrency Pair Analysis Tool
 Cryptocurrency Pair Analysis Tool
 
+@liqtags here, previously known as 0xlino :) 
+
 ![alt text](./images/dexclient.png "dexclient")
 
 ## Overview
