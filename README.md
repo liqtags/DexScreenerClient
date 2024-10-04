@@ -1,7 +1,9 @@
 # Cryptocurrency Pair Analysis Tool
 Cryptocurrency Pair Analysis Tool
 
-@liqtags here, previously known as 0xlino :) 
+I really appreciate your interest in this project. However, it's currently not working very good; I am working on a new version in Typescript. I did this in Python because I thought it would be easier to get it done faster, but I was wrong. I also learned a lot from this project and met some great people. 
+
+⚠️ Please be aware of a bad forks of my repo ⚠️ 
 
 ![alt text](./images/dexclient.png "dexclient")
 
