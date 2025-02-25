@@ -1,6 +1,8 @@
 # Cryptocurrency Pair Analysis Tool
 Cryptocurrency Pair Analysis Tool
 
+Join the [Dexlens DAO](https://dexlens.io/)
+
 ![alt text](./images/dexclient.png "dexclient")
 
 ## Overview
